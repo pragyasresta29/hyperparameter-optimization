@@ -1,0 +1,653 @@
+[
+    {
+        "data": "Steel_data",
+        "range": 100,
+        "model": "DecisionTree",
+        "best_params": {
+            "criterion": "gini",
+            "max_depth": 2,
+            "min_samples_leaf": 5
+        }
+    },
+    {
+        "data": "Steel_data",
+        "range": 100,
+        "model": "AdaBoost",
+        "best_params": {
+            "algorithm": "SAMME",
+            "learning_rate": 0.97,
+            "n_estimators": 2
+        }
+    },
+    {
+        "data": "Steel_data",
+        "range": 100,
+        "model": "XGBoost",
+        "best_params": {
+            "colsample_bytree": 0.6,
+            "eta": 0.3,
+            "max_depth": 6,
+            "subsample": 0
+        }
+    },
+    {
+        "data": "EEG_data",
+        "range": 100,
+        "model": "DecisionTree",
+        "best_params": {
+            "criterion": "gini",
+            "max_depth": 2,
+            "min_samples_leaf": 5
+        }
+    },
+    {
+        "data": "EEG_data",
+        "range": 100,
+        "model": "AdaBoost",
+        "best_params": {
+            "algorithm": "SAMME",
+            "learning_rate": 0.97,
+            "n_estimators": 2
+        }
+    },
+    {
+        "data": "EEG_data",
+        "range": 100,
+        "model": "XGBoost",
+        "best_params": {
+            "colsample_bytree": 0.6,
+            "eta": 0.3,
+            "max_depth": 6,
+            "subsample": 0
+        }
+    },
+    {
+        "data": "Electricity_data",
+        "range": 100,
+        "model": "DecisionTree",
+        "best_params": {
+            "criterion": "gini",
+            "max_depth": 2,
+            "min_samples_leaf": 5
+        }
+    },
+    {
+        "data": "Electricity_data",
+        "range": 100,
+        "model": "AdaBoost",
+        "best_params": {
+            "algorithm": "SAMME",
+            "learning_rate": 0.97,
+            "n_estimators": 6
+        }
+    },
+    {
+        "data": "Electricity_data",
+        "range": 100,
+        "model": "XGBoost",
+        "best_params": {
+            "colsample_bytree": 0.6,
+            "eta": 0.3,
+            "max_depth": 6,
+            "subsample": 0.6
+        }
+    },
+    {
+        "data": "Steel_data",
+        "range": 200,
+        "model": "DecisionTree",
+        "best_params": {
+            "criterion": "gini",
+            "max_depth": 2,
+            "min_samples_leaf": 5
+        }
+    },
+    {
+        "data": "Steel_data",
+        "range": 200,
+        "model": "AdaBoost",
+        "best_params": {
+            "algorithm": "SAMME",
+            "learning_rate": 0.97,
+            "n_estimators": 2
+        }
+    },
+    {
+        "data": "Steel_data",
+        "range": 200,
+        "model": "XGBoost",
+        "best_params": {
+            "colsample_bytree": 0.6,
+            "eta": 0.3,
+            "max_depth": 6,
+            "subsample": 0
+        }
+    },
+    {
+        "data": "EEG_data",
+        "range": 200,
+        "model": "DecisionTree",
+        "best_params": {
+            "criterion": "gini",
+            "max_depth": 8,
+            "min_samples_leaf": 20
+        }
+    },
+    {
+        "data": "EEG_data",
+        "range": 200,
+        "model": "AdaBoost",
+        "best_params": {
+            "algorithm": "SAMME.R",
+            "learning_rate": 0.97,
+            "n_estimators": 10
+        }
+    },
+    {
+        "data": "EEG_data",
+        "range": 200,
+        "model": "XGBoost",
+        "best_params": {
+            "colsample_bytree": 0.8,
+            "eta": 0.3,
+            "max_depth": 6,
+            "subsample": 0.6
+        }
+    },
+    {
+        "data": "Steel_data",
+        "range": 500,
+        "model": "DecisionTree",
+        "best_params": {
+            "criterion": "gini",
+            "max_depth": 2,
+            "min_samples_leaf": 5
+        }
+    },
+    {
+        "data": "Steel_data",
+        "range": 500,
+        "model": "AdaBoost",
+        "best_params": {
+            "algorithm": "SAMME",
+            "learning_rate": 0.97,
+            "n_estimators": 2
+        }
+    },
+    {
+        "data": "Steel_data",
+        "range": 500,
+        "model": "XGBoost",
+        "best_params": {
+            "colsample_bytree": 0.6,
+            "eta": 0.3,
+            "max_depth": 6,
+            "subsample": 0
+        }
+    },
+    {
+        "data": "Steel_data",
+        "range": 1000,
+        "model": "DecisionTree",
+        "best_params": {
+            "criterion": "gini",
+            "max_depth": 2,
+            "min_samples_leaf": 5
+        }
+    },
+    {
+        "data": "Steel_data",
+        "range": 1000,
+        "model": "AdaBoost",
+        "best_params": {
+            "algorithm": "SAMME",
+            "learning_rate": 0.97,
+            "n_estimators": 2
+        }
+    },
+    {
+        "data": "Steel_data",
+        "range": 1000,
+        "model": "XGBoost",
+        "best_params": {
+            "colsample_bytree": 0.6,
+            "eta": 0.3,
+            "max_depth": 6,
+            "subsample": 0
+        }
+    },
+    {
+        "data": "EEG_data",
+        "range": 500,
+        "model": "DecisionTree",
+        "best_params": {
+            "criterion": "entropy",
+            "max_depth": 10,
+            "min_samples_leaf": 10
+        }
+    },
+    {
+        "data": "EEG_data",
+        "range": 500,
+        "model": "AdaBoost",
+        "best_params": {
+            "algorithm": "SAMME.R",
+            "learning_rate": 0.99,
+            "n_estimators": 16
+        }
+    },
+    {
+        "data": "EEG_data",
+        "range": 500,
+        "model": "XGBoost",
+        "best_params": {
+            "colsample_bytree": 0.7,
+            "eta": 0.4,
+            "max_depth": 6,
+            "subsample": 0.6
+        }
+    },
+    {
+        "data": "Steel_data",
+        "range": 1500,
+        "model": "DecisionTree",
+        "best_params": {
+            "criterion": "entropy",
+            "max_depth": 6,
+            "min_samples_leaf": 5
+        }
+    },
+    {
+        "data": "Steel_data",
+        "range": 1500,
+        "model": "AdaBoost",
+        "best_params": {
+            "algorithm": "SAMME.R",
+            "learning_rate": 0.97,
+            "n_estimators": 10
+        }
+    },
+    {
+        "data": "Steel_data",
+        "range": 1500,
+        "model": "XGBoost",
+        "best_params": {
+            "colsample_bytree": 0.8,
+            "eta": 0.5,
+            "max_depth": 6,
+            "subsample": 0.6
+        }
+    },
+    {
+        "data": "EEG_data",
+        "range": 1000,
+        "model": "DecisionTree",
+        "best_params": {
+            "criterion": "entropy",
+            "max_depth": 12,
+            "min_samples_leaf": 5
+        }
+    },
+    {
+        "data": "EEG_data",
+        "range": 1000,
+        "model": "AdaBoost",
+        "best_params": {
+            "algorithm": "SAMME",
+            "learning_rate": 1.01,
+            "n_estimators": 12
+        }
+    },
+    {
+        "data": "EEG_data",
+        "range": 1000,
+        "model": "XGBoost",
+        "best_params": {
+            "colsample_bytree": 0.8,
+            "eta": 0.3,
+            "max_depth": 6,
+            "subsample": 0.8
+        }
+    },
+    {
+        "data": "EEG_data",
+        "range": 1500,
+        "model": "DecisionTree",
+        "best_params": {
+            "criterion": "entropy",
+            "max_depth": 8,
+            "min_samples_leaf": 5
+        }
+    },
+    {
+        "data": "EEG_data",
+        "range": 1500,
+        "model": "AdaBoost",
+        "best_params": {
+            "algorithm": "SAMME",
+            "learning_rate": 0.99,
+            "n_estimators": 16
+        }
+    },
+    {
+        "data": "EEG_data",
+        "range": 1500,
+        "model": "XGBoost",
+        "best_params": {
+            "colsample_bytree": 0.8,
+            "eta": 0.4,
+            "max_depth": 10,
+            "subsample": 0.6
+        }
+    },
+    {
+        "data": "EEG_data",
+        "range": 3000,
+        "model": "DecisionTree",
+        "best_params": {
+            "criterion": "entropy",
+            "max_depth": 12,
+            "min_samples_leaf": 5
+        }
+    },
+    {
+        "data": "EEG_data",
+        "range": 3000,
+        "model": "AdaBoost",
+        "best_params": {
+            "algorithm": "SAMME.R",
+            "learning_rate": 0.98,
+            "n_estimators": 12
+        }
+    },
+    {
+        "data": "EEG_data",
+        "range": 3000,
+        "model": "XGBoost",
+        "best_params": {
+            "colsample_bytree": 0.8,
+            "eta": 0.5,
+            "max_depth": 16,
+            "subsample": 0.8
+        }
+    },
+    {
+        "data": "Electricity_data",
+        "range": 200,
+        "model": "DecisionTree",
+        "best_params": {
+            "criterion": "gini",
+            "max_depth": 2,
+            "min_samples_leaf": 5
+        }
+    },
+    {
+        "data": "Electricity_data",
+        "range": 200,
+        "model": "AdaBoost",
+        "best_params": {
+            "algorithm": "SAMME.R",
+            "learning_rate": 0.99,
+            "n_estimators": 12
+        }
+    },
+    {
+        "data": "Electricity_data",
+        "range": 200,
+        "model": "XGBoost",
+        "best_params": {
+            "colsample_bytree": 0.7,
+            "eta": 0.3,
+            "max_depth": 8,
+            "subsample": 0.6
+        }
+    },
+    {
+        "data": "Electricity_data",
+        "range": 500,
+        "model": "DecisionTree",
+        "best_params": {
+            "criterion": "entropy",
+            "max_depth": 6,
+            "min_samples_leaf": 20
+        }
+    },
+    {
+        "data": "Electricity_data",
+        "range": 500,
+        "model": "AdaBoost",
+        "best_params": {
+            "algorithm": "SAMME",
+            "learning_rate": 0.97,
+            "n_estimators": 16
+        }
+    },
+    {
+        "data": "Electricity_data",
+        "range": 500,
+        "model": "XGBoost",
+        "best_params": {
+            "colsample_bytree": 0.8,
+            "eta": 0.4,
+            "max_depth": 12,
+            "subsample": 0.8
+        }
+    },
+    {
+        "data": "Electricity_data",
+        "range": 1000,
+        "model": "DecisionTree",
+        "best_params": {
+            "criterion": "gini",
+            "max_depth": 6,
+            "min_samples_leaf": 20
+        }
+    },
+    {
+        "data": "Electricity_data",
+        "range": 1000,
+        "model": "AdaBoost",
+        "best_params": {
+            "algorithm": "SAMME",
+            "learning_rate": 0.97,
+            "n_estimators": 16
+        }
+    },
+    {
+        "data": "Electricity_data",
+        "range": 1000,
+        "model": "XGBoost",
+        "best_params": {
+            "colsample_bytree": 0.8,
+            "eta": 0.5,
+            "max_depth": 8,
+            "subsample": 0.6
+        }
+    },
+    {
+        "data": "Electricity_data",
+        "range": 1500,
+        "model": "DecisionTree",
+        "best_params": {
+            "criterion": "entropy",
+            "max_depth": 10,
+            "min_samples_leaf": 5
+        }
+    },
+    {
+        "data": "Electricity_data",
+        "range": 1500,
+        "model": "AdaBoost",
+        "best_params": {
+            "algorithm": "SAMME.R",
+            "learning_rate": 0.99,
+            "n_estimators": 10
+        }
+    },
+    {
+        "data": "Electricity_data",
+        "range": 1500,
+        "model": "XGBoost",
+        "best_params": {
+            "colsample_bytree": 0.8,
+            "eta": 0.4,
+            "max_depth": 10,
+            "subsample": 0.6
+        }
+    },
+    {
+        "data": "Electricity_data",
+        "range": 3000,
+        "model": "DecisionTree",
+        "best_params": {
+            "criterion": "entropy",
+            "max_depth": 8,
+            "min_samples_leaf": 20
+        }
+    },
+    {
+        "data": "Electricity_data",
+        "range": 3000,
+        "model": "AdaBoost",
+        "best_params": {
+            "algorithm": "SAMME",
+            "learning_rate": 0.99,
+            "n_estimators": 10
+        }
+    },
+    {
+        "data": "Electricity_data",
+        "range": 3000,
+        "model": "XGBoost",
+        "best_params": {
+            "colsample_bytree": 0.6,
+            "eta": 0.3,
+            "max_depth": 6,
+            "subsample": 0.8
+        }
+    },
+    {
+        "data": "EEG_data",
+        "range": 5000,
+        "model": "DecisionTree",
+        "best_params": {
+            "criterion": "gini",
+            "max_depth": 16,
+            "min_samples_leaf": 10
+        }
+    },
+    {
+        "data": "EEG_data",
+        "range": 5000,
+        "model": "AdaBoost",
+        "best_params": {
+            "algorithm": "SAMME.R",
+            "learning_rate": 0.98,
+            "n_estimators": 2
+        }
+    },
+    {
+        "data": "EEG_data",
+        "range": 5000,
+        "model": "XGBoost",
+        "best_params": {
+            "colsample_bytree": 0.7,
+            "eta": 0.4,
+            "max_depth": 8,
+            "subsample": 0.8
+        }
+    },
+    {
+        "data": "EEG_data",
+        "range": 10000,
+        "model": "DecisionTree",
+        "best_params": {
+            "criterion": "gini",
+            "max_depth": 12,
+            "min_samples_leaf": 20
+        }
+    },
+    {
+        "data": "EEG_data",
+        "range": 10000,
+        "model": "AdaBoost",
+        "best_params": {
+            "algorithm": "SAMME.R",
+            "learning_rate": 0.97,
+            "n_estimators": 10
+        }
+    },
+    {
+        "data": "EEG_data",
+        "range": 10000,
+        "model": "XGBoost",
+        "best_params": {
+            "colsample_bytree": 0.7,
+            "eta": 0.3,
+            "max_depth": 10,
+            "subsample": 0.8
+        }
+    },
+    {
+        "data": "Electricity_data",
+        "range": 5000,
+        "model": "DecisionTree",
+        "best_params": {
+            "criterion": "gini",
+            "max_depth": 2,
+            "min_samples_leaf": 5
+        }
+    },
+    {
+        "data": "Electricity_data",
+        "range": 5000,
+        "model": "AdaBoost",
+        "best_params": {
+            "algorithm": "SAMME.R",
+            "learning_rate": 0.97,
+            "n_estimators": 8
+        }
+    },
+    {
+        "data": "Electricity_data",
+        "range": 5000,
+        "model": "XGBoost",
+        "best_params": {
+            "colsample_bytree": 0.8,
+            "eta": 0.5,
+            "max_depth": 10,
+            "subsample": 0.6
+        }
+    },
+    {
+        "data": "Electricity_data",
+        "range": 10000,
+        "model": "DecisionTree",
+        "best_params": {
+            "criterion": "gini",
+            "max_depth": 2,
+            "min_samples_leaf": 5
+        }
+    },
+    {
+        "data": "Electricity_data",
+        "range": 10000,
+        "model": "AdaBoost",
+        "best_params": {
+            "algorithm": "SAMME.R",
+            "learning_rate": 0.97,
+            "n_estimators": 10
+        }
+    },
+    {
+        "data": "Electricity_data",
+        "range": 10000,
+        "model": "XGBoost",
+        "best_params": {
+            "colsample_bytree": 0.8,
+            "eta": 0.5,
+            "max_depth": 6,
+            "subsample": 0.8
+        }
+    }
+]
