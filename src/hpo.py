@@ -39,8 +39,7 @@ xgb_params = {
 
 # models to be used
 models = [{'name': 'DecisionTree', 'model': tree.DecisionTreeClassifier(), 'params': dt_params},
-          {'name': 'AdaBoost', 'model': AdaBoostClassifier(), 'params': ada_params},
-          {'name': 'XGBoost', 'model': xgb.XGBClassifier(verbosity = 0, silent=True), 'params': xgb_params}]
+          {'name': 'AdaBoost', 'model': AdaBoostClassifier(), 'params': ada_params}]
 
 
 # pass the ranges and dataset to this function to generate best_parameters
@@ -95,9 +94,9 @@ new_data = ct.fit_transform(electricity_data.data)
 electricity_data.data = pd.DataFrame(new_data, columns=ct.get_feature_names(), index=electricity_data.data.index)
 
 
-gather_hpo_data([100], steel_data, 'Steel_data')
-gather_hpo_data([100], eeg_data, 'EEG_data')
-gather_hpo_data([100], electricity_data, 'Electricity_data')
+#gather_hpo_data([100], steel_data, 'Steel_data')
+#gather_hpo_data([100], eeg_data, 'EEG_data')
+gather_hpo_data([100, 200, 300], electricity_data, 'Electricity_data')
 
 
 
