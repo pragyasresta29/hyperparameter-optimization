@@ -95,7 +95,7 @@ def plot_graph():
         pyplot.show()
 
 
-# compute_all_accuracies()
+compute_all_accuracies()
 plot_graph()
 
 
