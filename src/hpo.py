@@ -95,9 +95,9 @@ new_data = ct.fit_transform(electricity_data.data)
 electricity_data.data = pd.DataFrame(new_data, columns=ct.get_feature_names(), index=electricity_data.data.index)
 
 
-gather_hpo_data([1500], steel_data, 'Steel_data')
-gather_hpo_data([5000, 10000], eeg_data, 'EEG_data')
-gather_hpo_data([5000, 10000], electricity_data, 'Electricity_data')
+gather_hpo_data([100], steel_data, 'Steel_data')
+gather_hpo_data([100], eeg_data, 'EEG_data')
+gather_hpo_data([100], electricity_data, 'Electricity_data')
 
 
 
